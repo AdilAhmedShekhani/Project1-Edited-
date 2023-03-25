@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar{
+    width: 100%;
+    padding: 0px 20px 10px 0px;
+    margin:  0px 0px 10px 0px ; 
+    background-color: #333332;
+    
+}
+.alink{
+    color: rgb(129, 129, 241);
+    text-decoration: none;      
+}
+
+.alink:hover{
+    color: white;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav ul li{
+    list-style: none;
+    padding: 10px 20px ;
+
+}
+#mac-heading{
+    text-align: center;
+}
+.container1{
+    width: 100%;
+    height: 100vh;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper{
+    width: 90%;
+    height: fit-content;
+}
+.swiper-slide img{
+    width: 100%;
+}
+.swiper .swiper-button-next, .swiper .swiper-button-prev{
+    color: rgb(129, 129, 241);
+}
+.swiper .swiper-pagination-bullet-active{
+    background: rgb(129, 129, 241);
+}
+.h2{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    font-size: x-large;
+    line-height: 100px;
+    
+}
+.mac-img{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    
+
+}
+.paragraph1{
+    margin: 0%;
+    text-align: center;
+    font-family: Georgia;
+    font-weight: 600%;
+    font-size: x-large;
+    flex-wrap: wrap-reverse;
+    line-height: 50px;
+}
+.h3-mac{
+    margin: 5%;
+    padding: 0%;
+    text-align: center;
+    font-size: x-large;
+    line-height: 100px;
+
+}
+.mac-img2{
+    margin: 0%;
+    padding: 10%;
+    text-align: center;
+}
+.mac-paragraph2{
+    margin: 0%;
+    text-align: center;
+    font-family: Georgia;
+    font-weight: 600%;
+    font-size: x-large;
+    flex-wrap: wrap-reverse;
+    line-height: 50px;
+}
+.h4-mac{
+    margin: 1%;
+    padding: 2%;
+    text-align: center;
+    font-family: Georgia;
+    font-weight: 1000;
+    font-size: xx-large;
+}
+.mac-paragraph3{
+  text-align: center;
+  font-size: x-large    ;
+  font-family: Georgia;
+
+}
+.mac-button{
+    margin: 1%;
+    padding: 0%;
+    text-align: center;
+}
+.btn{
+    border: 5px solid rgb(16, 15, 15);
+    background: rgb(129, 129, 241);
+    font-size: 50px;
+    font-family:Georgia;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    border-radius: 20px;
+
+}
+.btn1{
+color: rgb(116, 39, 39);
+
+}
+.btn1:hover{
+    color:#c5c6d5;
+}
+.mac-img3{
+    text-align: center;
+    
+}
+.mac-h5{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+
+}
+.mac-img4{
+    text-align: center;
+
+}
+.mac-img5{
+    text-align: center;
+    
+}
+.mac-img6{
+    text-align: center;
+    
+}
+.mac-img7{
+    text-align: center;
+    
+}
+.mac-img8{
+    text-align: center;
+}
+.mac-img9{
+    text-align: center;
+}
+.mac-img10{
+    text-align: center;
+}
+
+.img1iphone{
+    text-align: center;
+}
+
+h1{text-align: center;
+}
+.img2iphone{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+.img3iphone{
+    text-align: center;
+}
+.img4iphone{
+    text-align: center;
+}
+.img5iphone{
+    text-align: center;
+}
+.img6iphone{
+    text-align: center;
+}
+.img7iphone{
+    text-align: center;
+}
+.img8iphone{
+    text-align: center;
+}
+.img9iphone{
+    text-align: center;
+}
+

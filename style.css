@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    width: 100%;
+    padding: 0px 20px 10px 0px;
+    margin: 0px 0px 0px 0px;
+    background-color: #333332;
+    
+
+}
+
+#search {
+    width: 400px;
+    border-radius: 20px;
+    height: 30px;
+}
+
+.aousaf-secnav {
+    text-align: center;
+    width: 100%;
+    background-color: cornsilk;
+    padding: 10px 0px 0px 0px;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+
+.alink {
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.alink:hover {
+    color: blue;
+}
+
+.a2link {
+    color: blue;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.a2link:hover {
+    color: red;
+}
+.a6link {
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.a6link:hover {
+    color: blue;
+}
+.a5link:hover {
+    color: blue;
+}
+
+.a3link {
+    color: red;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.a3link:hover {
+    color: black;
+}
+
+.a4link {
+    color: blue;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.a4link:hover {
+    color: yellow;
+}
+
+.a5link {
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.a5link:hover {
+    color: red;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav ul li a :hover .dropdown_menu ul li{
+    transition: all 0.5s;
+    overflow: hidden;
+    
+}
+nav ul li {
+    list-style: none;
+    padding: 10px 20px;
+    position: relative;
+    list-style: none;
+}
+
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.dropbtn {
+    background-color: #333332;
+    color: white;
+    padding: 16px;
+    padding-top: 18px;
+    font-size: 14px;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover{
+    color: blue;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    background-color:black;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+     
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #333332;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #333332;}
+
+
+.aousaf-body2 {
+    display: grid;
+    place-items: center;
+    /* width: 100%; */
+    height: 450px;
+    /* background-color: #333332; */
+
+}
+
+.aousaf-imgslider {
+    width: 100%;
+    height: 450px;
+    background-image: url("/mac1.jpg");
+    background-size: 100% 100%;
+    animation: changeimg 30s linear infinite;
+    cursor: pointer;
+}
+
+@keyframes changeimg {
+
+    20% {
+        background-image: url(/Capture\ 1.PNG);
+        width: 100%;
+    }
+    
+    45% {
+        background-image: url(/mac2.png);
+        width: 100%;
+        
+    }
+    
+    70% {
+        background-image: url(/iphone1.png);
+        width: 100%;
+    }
+
+    100% {
+        background-image: url(/tv1.jpg);
+    }
+
+}
+
+.aousaf-iphones {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 10px;
+
+    /* width: 100%; */
+    height: 500px;
+}
+
+.aousaf-phoneitm1 {
+    border-radius:6px ;
+    margin: 0PX 5PX 0PX 5PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    background-image: url(/iphone-14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.aousaf-phoneitm2 {
+    margin: 0PX 5PX 0PX 5PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    background-image: url(/watch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    border-radius:6px ;
+}
+
+.aousaf-iphones2 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 10px 10px;
+    /* width: 100%; */
+    height: 434px;
+    overflow: hidden;
+}
+
+
+.aousaf-phoneitm3 {
+    border-radius:6px ;
+    margin: 0PX 5PX 0PX 5PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 50%;
+    background-color: #F5F5F7;
+}
+
+
+.aousaf-phoneitm4 {
+    margin: 0PX 5PX 0PX 5PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 50%;
+    background-color: #F5F5F7;
+
+}
+
+div>img {
+    width: 40%;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+.aousaf-iphones2 img:hover {
+    width: 60%;
+}
+
+.aousaf-div8>ol {
+    list-style: none;
+}
+
+.lk {
+    color: blue;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.lk:hover {
+    color: red;
+}
+
+.aousaf-div8 {
+    width: 80%;
+    height: 40%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.aousaf-fotlink {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 55px;
+
+}
+
+.links>ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.ao {
+    color: blue;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.ao:hover {
+    color: red;
+}
+
+.links {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.aousaf-div13 {
+    word-spacing: 10px;
+    position: absolute;
+    top: 2300px;
+    height: 50px;
+    width: 80%;
+    left: 180px;
+}
+
+.aousaf-div14 {
+    margin-top: -25px;
+    display: flex;
+    margin-left: -90px;
+    justify-content: space-evenly;
+    background-color: black;
+    color: #F5F5F7;
+    position: absolute;
+    top: 2350px;
+    height: 50px;
+    width: 90%;
+    left: 97px;
+    padding: 0px 43px 0px 80px;
+}
+
